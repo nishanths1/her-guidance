@@ -9,6 +9,8 @@ interface User {
   name: string;
   email: string;
   role?: string;
+  phone?: string;
+  emergencyContacts?: { name: string; role?: string; phone: string }[];
 }
 
 interface AuthContextType {
